@@ -259,6 +259,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 7, 2025 13:15** Kelvin went to the locsl church for the free hot meal then waited in line for a free haircut.  While waiting in line for food a man arrived talking to himself out loud using every variation of "duck" imaginable.  While eating and waiting for a haircut another man arrived looking for a bathroom, his appearance was "faux homeless" (a costume).  At Welcome House a black female was seated on the stairs eating and called out to me asking for food, I offered her some bread and she responded by demanding items from the snack bag, I told her where she could get her own.  All three individuals seemed out of place and unfamiliar with the area or their current activity which suggests they were all federal government employees conducting surveillance.
 * **December 8, 2025 17:10** Slim knocked on door to ask if Kelvin had a smoking apparatus.
 * **December 9, 2025 00:00-06:30** A knock on the door was unanswered, the "locusts" were heard and the music was stopped on the Chromebook.
+* **December 12, 2025 11:09** IAAD Message Exchange with ATLlooking4now123 on BBRT.  Wishing he was partying but declined to meet until tonight when he is "mobile."
+  
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
