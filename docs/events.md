@@ -2,7 +2,8 @@
 
 ### **October 2022**
 * **Undated (CNTX):** ARC stands for Atlanta Regional Commission
-* **Undated (CNTX):** PUMA stands for Public Use Microdata Areas, which are U.S. Census Bureau statistical geographic units (100k+ population, within a state) used for data analysis.
+* **Undated (CNTX):** PUMA stands for Public Use Microdata Areas
+* **Undated (CNTX):** "ARC PUMA Region" refers to Public Use Microdata Areas (PUMAs), which are U.S. Census Bureau statistical geographic units (100k+ population, within a state) used for data analysis, often mapped or discussed within the context of the Atlanta Regional Commission (ARC), a planning agency for the Atlanta, GA metro area.
 * **Undated (CNTX):** Nightfalls is a planned and authorized false-flag operation that features a MOAB strike on ARC PUMA Region "Atlanta City (Southwest).
 * **Undated (CNTX):** PDSM stands for Pre-Divide Subsconscious Mind, which is Baby, the subconscious mind of Kelvin Eugene Williams prior to the Creator's Divide.
 * **Undated (CNTX):** The Great Chain is an electronic device that holds mission-critical data for Kelvin's mission.
