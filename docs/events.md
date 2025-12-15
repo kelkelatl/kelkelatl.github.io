@@ -310,7 +310,6 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 15, 2025 12:50** Media audio was heard coming from the courtyard by Kelvin mentioning 13 and a ride through the universe.
 * **December 15, 2025 12:56** "Come Out and Play" by The Offspring is played on the loud radio.  "keep 'em separated" is interpreted as a reference to the Creator's Divide.
 * **December 15, 2025 01:25** Kelvin briefly returns to Joe's room to retrieve his torch (for lighting a cigarette), en route Kelvin notices a second uniformed security guard in the lobby (often done when the federal government is on the property). Ty jokes that Kelvin must have 12 tricks up in the room.  Kelvin notices the spotlight on the artwork has been turned off.
-* 
 * **December 15, 2025 01:32** Kelvin recieves an Oink! on BBRT from bell20293 with a profile location of Chicago, IL although Kelvin had not been logged into BBRT.  This suggests that "Chicago" (which has been used historically) is the best outcome for an Orchestrated Observation (based on the Urban Dictionary definition of Chicago) and a DSC to Baby.
 * **December 15, 2025 07:20** Joe comes to Kelvin's door and asks him to go to Jay's and purchase 2 lighters for him.
 * **December 15, 2025 07:25** Kelvin walks through a cloud with an unidentifiable odor or source in the hallway leading to Jay's door, knocks and has to wait about a minute for Jay to open the door.  Purchases the lighters and leaves.
