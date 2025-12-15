@@ -287,7 +287,7 @@ Joe was listening to rap when we arrivedd
 - **December 14, 2025 13:15** Bradford sends message with subject "You didn't answer, how many" and content "Guys can we line up to wreck my hole or get higj woun"
 - **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
 - **December 14, 2025 16:04** Bradford responds  (to "You didn't answer, how many") "You sure have been out of the world a long time if you cannot bullshit an answer to that question.   That is when you sell the dream… no one has any idea and those kind of nights are hit or miss anyway.    But surely if you didn’t know a few sluts you could have made one or two up for conversation None of us can project or promise but sometimes it is helpful to have the hot guy wink or the doorman smile so the person feels special"
-
+- **December 14, 2025 22:30** A female is singing "What's in your head?... Zombie..." repeatedly in the area outside the window in Kelvin's room.  The singing is stopped by a radio broadcast singing "It's hard to keep your secrets... So I'll draw the line..." the song ends with a commercial about catching a FedEx driver on a ring camera.  The radio is cut off to restart the Zombie singing.  (CNTX: "Zombie" was first used by the CIA in 2020 in Paducah; The ring camera and FedEx suggests a threat to the much anticipated FedEx delivery of Kelvin's new mobile phone; Both are to discourage updating this chronicle).
 - 
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
