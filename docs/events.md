@@ -255,6 +255,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 14, 2025 12:17** Ty (Nigha777) sends message on NKP with subject "Ass needs to get fucked" and content "Normally a top but all this ice got me burning"
 * **December 14, 2025 12:51** Kelvin responds to Ty with "Damn I'd love to get high with you and put out the fire.  I'm located downtown, no transportation.  I can host but it's not the greatest place to host."
 * **December 14, 2025 12:56 - 13:50** Kelvin and Ty exchange messages, Ty wants to come over quickly and has party supplies.  Ty is taking an Uber and is supposed to message when he's 5 minutes away in the Uber.  Ty texts at 13:42 the Uber's description and that the Uber would pick him up in six minutes.  Kelvin responds "LMK when you're 5 minutes away from my door."  At 13:50 Ty responds "My bad I got here quicker than I thought.  I am outside."  When Kelvin went outside, Ty didn't recognize him at all, Kelvin had to ask him if he had just taken an Uber to Welcome House.  (This suggests Kelvin was not messaging Ty.)
+* **December 14, 2025 13:55** In Kelvin's room Ty states he'd like to get some crack and that crack makes him want to suck dick.  Kelvin tells him no one in the building takes CashApp and the two walk to Greyhound to get funds from the ATM.
+* **December 14, 2025 15:00** After smoking crystal methamphetamine and crack cocaine (Ty only) Kelvin takes off his sweat pants and is now wearing only basketball shorts.  Kelvin plays with himself and becomes engorged.  Ty does not say anything indicating he wants to suck dick anymore, nor any of the typical comments Kelvin receives in a similar situation with a gay male.  This suggests Ty is not homosexual.
 * **December 14, 2025 15:47** Kelvin sends Ty a message on NKP while in Joe's room: "You feeling better or am I repulsive to you or something??"  Kelvin tells (multiple times) Ty to check NKP for the message.  Ty never acknowledges (in-person) or sends a response.  (This suggests Kelvin was not messaging Ty.)
 * **December 14, 2025 13:51** Ty (Nigha777) arrived at Welcome House (way faster than expected/communicated). 
 * **December 14, 2025 13:57** Oink received on NKP from "KinkyNewb" in Winter Garden, FL.
@@ -285,6 +287,7 @@ Joe was listening to rap when we arrivedd
 - **December 14, 2025 13:15** Bradford sends message with subject "You didn't answer, how many" and content "Guys can we line up to wreck my hole or get higj woun"
 - **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
 - **December 14, 2025 16:04** Bradford responds  (to "You didn't answer, how many") "You sure have been out of the world a long time if you cannot bullshit an answer to that question.   That is when you sell the dream… no one has any idea and those kind of nights are hit or miss anyway.    But surely if you didn’t know a few sluts you could have made one or two up for conversation None of us can project or promise but sometimes it is helpful to have the hot guy wink or the doorman smile so the person feels special"
+
 - 
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
