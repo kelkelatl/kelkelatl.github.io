@@ -6,8 +6,8 @@
 * **Undated (CNTX):** Nightfalls is a planned and authorized false-flag operation that features a MOAB strike on ARC PUMA Region "Atlanta City (Southwest).
 * **Undated (CNTX):** PDSM stands for Pre-Divide Subsconscious Mind, which is Baby, the subconscious mind of Kelvin Eugene Williams prior to the Creator's Divide.
 * **Undated (CNTX):** The Great Chain is an electronic device that holds mission-critical data for Kelvin's mission.
-* **Undated (CNTX):** BBRT refers to BareBackRT.com, which is one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
-* **Undated (CNTX):** NKP refers to BareBackRT.com, which is one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
+* **Undated (CNTX):** BBRT refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
+* **Undated (CNTX):** NKP refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
 * **Undated (CNTX):** A Divine Death Notification is more commonly referred to as a "seeing a doppelganger" and is done for surving immediate relatives on Earth by the Creator they can and will occur for anyone.
 * **October 7, 2022, 20:00 (CNTX):** Kelvin, while traveling in Des Moines, IA, received the last phone call from his mother, Patricia Ann Williams. His mother habitually called him every day when he was traveling and after every flight. No further calls were received during or after the trip until the end of October 2022.
 * **October 8, 2022, 22:00 (CNTX):** Kelvin noticed an addition to a piece of artwork hanging in the Des Moines AirBNB, which depicted his mother's head and a pool of blood (image on the @kelvineugenewilliams X/Twitter feed as the cover art). Repeated calls to his mother and sister went unanswered, messages were unreturned.
