@@ -251,15 +251,30 @@ This process is depicted as functioning only when Baby enters a condition of hei
 
 ## Temp Notes
 * **December 12, 2025 16:50** Baby-driven text message to "Mom" letting her know that things were progressing on the job search (replacement ID obtained, replacement SS card ordered, etc).  Follow-up call (initiated because unable to receive her text reply), during the call she inquired about my voicemail to Katrina inquiring if I'd been kicked out of Welcome House, she volunteered that she couldn't send any money to which I responded I wasn't looking for any.  She also asked if I was on my medication (not something my mother never asked or knew I took).  No mention of "plate" verification question.  Call lasted 9:45.
-* **December 14, 2025 (CNTX)** Kelvin is a gay total top, has discussed openly how he likes to fuck other tops (that its a turn-on) and boasted about fucking some tops repeatedly (it is a gentler way of saying, "I have a really big dick").  Kelvin never discloses names so tops do contact him from time to time.
+* **December 14, 2025 (CNTX)** Kelvin is a gay total top, has discussed openly how he likes to fuck other tops (that its a turn-on) and boasted about fucking some tops repeatedly (it is a gentler way of saying, "I have/had a really big dick").  Kelvin never discloses names so tops do contact him from time to time.
+* **December 14, 2025 (CNTX)** "Florida"  like "New York" or "Chicago" is a command for Baby related to the penis)
+* **December 14, 2025 (CNTX)** A black male with a BBC is a "Coca-Cola" and all others are "Pepsi".
+- **December 14, 2025 (CNTX)** For the past week 99X (Atlanta rock station) has been blasted into the courtyard outside of Kelvin's window, on-air pwesonaliriwa oe xommwecials the "lous radio" is only loud for brief periods of time and hasreturned several times after only a couple minutes of silence.
+- **December 14, 2025 (CNTX)** Kelvin's neighbor directly across the hall has not opened his door in over a week (based on the notice taped on his door).
+- **December 14, 2025 (CNTX)** Welcome House security personnel was Vera (until 8pm) and Boyd (after 8pm).
+
 * **December 14, 2025 12:17** Ty (Nigha777) sends message on NKP with subject "Ass needs to get fucked" and content "Normally a top but all this ice got me burning"
 * **December 14, 2025 12:51** Kelvin responds to Ty with "Damn I'd love to get high with you and put out the fire.  I'm located downtown, no transportation.  I can host but it's not the greatest place to host."
-* **December 14, 2025 12:56 - 13:50** Kelvin and Ty exchange messages, Ty wants to come over quickly and has party supplies.  Ty is taking an Uber and is supposed to message when he's 5 minutes away in the Uber.  Ty texts at 13:42 the Uber's description and that the Uber would pick him up in six minutes.  Kelvin responds "LMK when you're 5 minutes away from my door."  At 13:50 Ty responds "My bad I got here quicker than I thought.  I am outside."  When Kelvin went outside, Ty didn't recognize him at all, Kelvin had to ask him if he had just taken an Uber to Welcome House.  (This suggests Kelvin was not messaging Ty.)
+* **December 14, 2025 12:56 - 13:50** Kelvin and Ty exchange messages, Ty wants to come over quickly and has party supplies.  Ty is taking an Uber and is supposed to message when he's 5 minutes away in the Uber.  Ty texts at 13:42 the Uber's description and that the Uber would pick him up in six minutes.  Kelvin responds "LMK when you're 5 minutes away from my door."  At 13:50 Ty responds "My bad I got here quicker than I thought.  I am outside."  When Kelvin went outside, Ty didn't recognize him at all, Kelvin had to ask him if he had just taken an Uber to Welcome House.  (This suggests Kelvin was not messaging Ty.
+* **December 14, 2025 13:51** Ty (Nigha777) arrived at Welcome House (way faster than expected/communicated).
 * **December 14, 2025 13:55** In Kelvin's room Ty states he'd like to get some crack and that crack makes him want to suck dick.  Kelvin tells him no one in the building takes CashApp and the two walk to Greyhound to get funds from the ATM.
-* **December 14, 2025 15:00** After smoking crystal methamphetamine and crack cocaine (Ty only) Kelvin takes off his sweat pants and is now wearing only basketball shorts.  Kelvin plays with himself and becomes engorged.  Ty does not say anything indicating he wants to suck dick anymore, nor any of the typical comments Kelvin receives in a similar situation with a gay male.  This suggests Ty is not homosexual.
+* **December 14, 2025 13:57** Oink received on NKP from "KinkyNewb" in Winter Garden, FL. This suggests a "Florida" command being issued to Baby.
+
+* **December 14, 2025 15:00** After smoking crystal methamphetamine and crack cocaine (Ty only) Kelvin takes off his sweat pants and begins wearing only basketball shorts (freeballing).  Kelvin plays with himself and becomes engorged (Baby inhibited erection).  Ty does not say anything indicating he wants to suck dick anymore, nor any of the typical comments Kelvin receives in a similar situation with a gay male.  This suggests Ty is not homosexual.
 * **December 14, 2025 15:47** Kelvin sends Ty a message on NKP while in Joe's room: "You feeling better or am I repulsive to you or something??"  Kelvin tells (multiple times) Ty to check NKP for the message.  Ty never acknowledges (in-person) or sends a response.  (This suggests Kelvin was not messaging Ty.)
-* **December 14, 2025 13:51** Ty (Nigha777) arrived at Welcome House (way faster than expected/communicated). 
-* **December 14, 2025 13:57** Oink received on NKP from "KinkyNewb" in Winter Garden, FL.
+
+
+- CNTX Only IAAD messages this weekend and a longer conversation with Bradford (OpenMinfedAtlanta) which was an extended IAAD conversation.
+- **December 13, 2025 16:36** Kelvin sends Bradford a message with subject "Let's get high!" and content "Let's get high and get you laid."
+- **December 13, 2025 17:52** Bradford responds (to "Let's get high!") "What are odds you can get some black guys to do a train on my hole or one at a time.  And you know I love white trash and blue collar workers."
+- **December 14, 2025 13:15** Bradford sends message with subject "You didn't answer, how many" and content "Guys can we line up to wreck my hole or get higj woun"
+  
+- **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
 * **Dedember 14, 2025 15:40** Ty wanted to leave my room, because of the window which I tolc him is nothing to be concerned about, so we went to Joe's room.  Joe was listening to rap when we entered, then switched to a Discovery type TV show on his phone but the video had a lot of commentary about what was going on in the room and referred to Ty the way Joe did upon arrival ss "Turbo Ty."   After a little DSC I began to add to the chronologu, when Joe switched to German rock and told us the dong was about "work etthic."  Joe made enough dick comments to be noticed by me and continued working on his artwork which he had displayed on the wall.  
 - Penis in the art
 - Joe... Guns and videos.
@@ -277,23 +292,17 @@ Joe was listening to rap when we arrivedd
 - Ty speaks of "mom" and "dad" quite a bit at store and since return.  With Joe he mentions recently visiting with "true mom."
 - Shortly after arrival, Ty lays a piece of paper that at first glance appears to be a $5 bill, its folded like loose bills often are and the "5"'s are clearly visible.  I tell him that he's dropped some money, he says "oh its fake anyway" and leaves it behind.  Ty isn't annoyed/concerned about Baby's intrusion.
 - Baby demanded (during attempt at achieving erection) that it tell Ty about how he needed to take the Cricket phone.  Baby ensures that Ty has the Cricket phone and Ty puts it in his pocket before going to Joe's.
-- Joe plays more German music about a "dirty bomb"
+- Joe plays more rock music about a "dirty bomb"
 - Ty mentions staying at "ground zero" tonight.
 - Ty provides all ncrystal methamphetamine, a weed vape and purchases $50 worth of crack cocaine after arriving.  Kelvin had a torch and can of butane and couldn't afford anything else.
 - After buying crack cocaine from Gene and a stem setup from Jay, Ty gave Kelvin the $5 in coins he received in change.
 - Joe tells me he has been written up for N.O. staying in his room and that N.O. was kicked out by Vera (security officer) two nights ago, and berates N.O.
-- CNTX Only IAAD messages this weekend and a longer conversation with Bradford (OpenMinfedAtlanta) which was an extended IAAD conversation.
-- **December 13, 2025 16:36** Kelvin sends Bradford a message with subject "Let's get high!" and content "Let's get high and get you laid."
-- **December 13, 2025 17:52** Bradford responds (to "Let's get high!") "What are odds you can get some black guys to do a train on my hole or one at a time.  And you know I love white trash and blue collar workers."
-- **December 14, 2025 13:15** Bradford sends message with subject "You didn't answer, how many" and content "Guys can we line up to wreck my hole or get higj woun"
-- **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
+- Joe makes several comments that were interpreted as "angels with little dicks" and comments/statements about "the Sun" which were interpreted as "the Son" as in Jesus.
 - **December 14, 2025 16:04** Bradford responds  (to "You didn't answer, how many") "You sure have been out of the world a long time if you cannot bullshit an answer to that question.   That is when you sell the dream… no one has any idea and those kind of nights are hit or miss anyway.    But surely if you didn’t know a few sluts you could have made one or two up for conversation None of us can project or promise but sometimes it is helpful to have the hot guy wink or the doorman smile so the person feels special"
 - **December 14, 2025 22:30** A female is singing "What's in your head?... Zombie..." repeatedly in the area outside the window in Kelvin's room.  The singing is stopped by a radio broadcast singing "It's hard to keep your secrets... So I'll draw the line..." the song ends with a commercial about catching a FedEx driver on a ring camera.  The radio is cut off to restart the Zombie singing.  (CNTX: "Zombie" was first used by the CIA in 2020 in Paducah; The ring camera and FedEx suggests a threat to the much anticipated FedEx delivery of Kelvin's new mobile phone; Both are to discourage updating this chronicle).
-- **December 14, 2025 22:45** Kelvin returns to Joe's room to escort Ty to get his ID.  ty states he's already gotten it and walked to the store to charge his phone xome more.  Ty tells Kelvin about "some bitch that wanted Pepsi" and Joe told about some prostitute hitting him up as he got out of the Uber from his mom's asking him if "he neeeded help with that."  (Both of these comments are likely reward for Baby).  Kelvin returns to his room where he encounters N.O. asking for a light for his cigarette who then says he needs to use the bathroom in the bathroom next to Kelvin's room.
-- **December 14, 2025 (CNTX)** For the past week 99X (Atlanta rock station) has been blasted into the courtyard outside of Kelvin's window, on-air pwesonaliriwa oe xommwecials the "lous radio" is only loud for brief periods of time and hasreturned several times after only a couple minutes of silence.
-- **December 14, 2025 (CNTX)** Kelvin's neighbor directly across the hall has not opened his door in over a week (based on the notice taped on his door).
-- **December 14, 2025 (CNTX)** Welcome House security personnel was Vera (until 8pm) and Boyd (after 8pm).
-
+- **December 14, 2025 22:45** Kelvin returns to Joe's room to escort Ty to get his ID.  ty states he's already gotten it and walked to the store to charge his phone xome more.  Ty tells Kelvin about "some bitch that wanted Pepsi" and Joe told about some prostitute hitting him up as he got out of the Uber from his mom's asking him if "he neeeded help with that." (Ty is referencing my little penis and Joe is referencing his "big dick").  Both of these comments are likely reward for Baby).  Kelvin returns to his room where he encounters N.O. asking for a light for his cigarette who then says he needs to use the bathroom in the bathroom next to Kelvin's room.  Baby has been actively manipulating physiological processes supporting Jacobsen's Ladder since around 15:40 the morphology of the flaccid penis appears around 2" (maybe smaller) in the sweat pants.
+* **December 14, 2025 23:19** "We might as well be walking on the sun" (exact title unknown) is playing on 99X loudly (radio can be heard again).  "Faggot" is also heard spoken by someone in the courtyard.
+  
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
@@ -302,6 +311,5 @@ Joe was listening to rap when we arrivedd
 * Shannon Wade Gumbiner ("Joe","Joseph Yadder")  is a resident of Welcome House in room  108
 * Lynn Frazier ("N.O.")  is not a resident of Welcome House but sleeps on Joe's floor occassionally in room 108
 * Alan Scott Dansky resides at 2959 Andrews Dr NW, Atlanta, GA and had telephone number 305-804-5205
-* 
 
 
