@@ -311,11 +311,12 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 15, 2025 01:32** Kelvin recieves an Oink! on BBRT from bell20293 with a profile location of Chicago, IL although Kelvin had not been logged into BBRT.
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
-* James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
-* Frederick Hall ("Slim") is a resident of Welcome House in room  369
-* Eugene Harrison ("Gene")  is a resident of Welcome House in room  338
+* James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312.
+* Frederick Hall ("Slim") is a resident of Welcome House in room 369.
+* Eugene Harrison ("Gene")  is a resident of Welcome House in room 338.
+* Eddie Williams ("Eddie") is a resident of Welcome House in room 112.
 * Shannon Wade Gumbiner ("Joe","Joseph Yadder")  is a resident of Welcome House in room  108
-* Lynn Frazier ("N.O.")  is not a resident of Welcome House but sleeps on Joe's floor occassionally in room 108
+* Lynn Frazier ("N.O.")  is reportedly a former resident of Welcome House and banned from the property, however is often sleeping on Joe's floor.
 * Alan Scott Dansky resides at 2959 Andrews Dr NW, Atlanta, GA and had telephone number 305-804-5205
 
 
