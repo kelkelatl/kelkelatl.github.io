@@ -1,4 +1,4 @@
-## Chronology of Pre-Nightfalls Events and Contextual Information
+ ## Chronology of Pre-Nightfalls Events and Contextual Information
 
 ### **October 2022**
 * **Undated (CNTX):** ARC stands for Atlanta Regional Commission
@@ -319,7 +319,7 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 15, 2025 07:35** Kelvin returns to his room and encounters the smell of flatulence in his room, lays on the bed for a few minutes then turns off the light out of concern for individuals observing or video being made.  Kelvin noticed a very few (seems lighter than normal) people inside or outside of Welcome House, only one person in the TV area, Joe, the past few times he was downstairs (morning news watchers are always watching TV around 7am).
 * **December 15, 2025 07:45** The Creator confirms that Baby gets a "parade", a slow moving firetruck drove by Welcome House with its sirens on.
 * **December 15, 2025 10:25** Kelvin stopped by Joe's room to find Ty was opening a reported $25 worth of crystal methamphetamine, Kelvin asked if he could "hit the bowl" once and Ty responded, while preparing to injest some crystal methamine by snorting it--making a very large line on Joe's lapboard, that he had to make some changes and had to say no.  This suggests an IAAD campaign is underway requiring something more from Baby.
-  
+* **December 15, 2025 11:25** Kelvin ate a PBJ from the refrigerator that was remarkably different from the others he brought home from the soup kitchen on Saturday morning, they seem to be thinner and have less PBJ in them.  There was a odd feeling in the mouth as it was chewed and swallowed.  The remaining PBJ sandwiches appear to be similar in thickness as the one just consumed. 
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312.
