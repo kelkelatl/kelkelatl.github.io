@@ -265,7 +265,13 @@ Joe was listening to rap when we arrivedd
 - "Update Print statement from Hello to Goodbye (when pasting chronology into the pne.md file on churchinsmuyrna/terminus (the vault) 
 - CNTX Github has been very weird lately, lotz of problems when creating a new account
 20:05 - Ty wants to return to Joes after returning from store to chargw his phone.  He needs to call his "Mom" or "Dad"....  
-
+- Ty has a Virginia ID, in town visiting before he moves in for a construction job in Kennesaw, GA.
+- ~21:15 Ty calls his "dad" telling him he's stuck at Greyhound, his "dad" isn't happy tells him to stay.  Ty debates calling his "mom" and Joe tells him "regardless of what you think, it's never as bad as you think it's going to be."
+- Ty speaks of "mom" and "dad" quite a bit at store and since return.  With Joe he mentions recently visiting with "true mom."
+- Shortly after arrival, Ty lays a piece of paper that at first glance appears to be a $5 bill, its folded like loose bills often are and the "5"'s are clearly visible.  I tell him that he's dropped some money, he says "oh its fake anyway" and leaves it behind.  Ty isn't annoyed/concerned about Baby's intrusion.
+- Baby demanded (during attempt at achieving erection) that it tell Ty about how he needed to take the Cricket phone.  Baby ensures that Ty has the Cricket phone and Ty puts it in his pocket before going to Joe's.
+- Joe plays more German music about a "dirty bomb"
+- Ty mentions staying at "ground zero" tonight.
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
