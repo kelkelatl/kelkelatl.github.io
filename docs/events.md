@@ -281,6 +281,7 @@ Joe was listening to rap when we arrivedd
 - Ty mentions staying at "ground zero" tonight.
 - Ty provides all ncrystal methamphetamine, a weed vape and purchases $50 worth of crack cocaine after arriving.  Kelvin had a torch and can of butane and couldn't afford anything else.
 - After buying crack cocaine from Gene and a stem setup from Jay, Ty gave Kelvin the $5 in coins he received in change.
+- Joe tells me he has been written up for N.O. staying in his room and that N.O. was kicked out by Vera (security officer) two nights ago, and berates N.O.
 - CNTX Only IAAD messages this weekend and a longer conversation with Bradford (OpenMinfedAtlanta) which was an extended IAAD conversation.
 - **December 13, 2025 16:36** Kelvin sends Bradford a message with subject "Let's get high!" and content "Let's get high and get you laid."
 - **December 13, 2025 17:52** Bradford responds (to "Let's get high!") "What are odds you can get some black guys to do a train on my hole or one at a time.  And you know I love white trash and blue collar workers."
@@ -288,7 +289,11 @@ Joe was listening to rap when we arrivedd
 - **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
 - **December 14, 2025 16:04** Bradford responds  (to "You didn't answer, how many") "You sure have been out of the world a long time if you cannot bullshit an answer to that question.   That is when you sell the dream… no one has any idea and those kind of nights are hit or miss anyway.    But surely if you didn’t know a few sluts you could have made one or two up for conversation None of us can project or promise but sometimes it is helpful to have the hot guy wink or the doorman smile so the person feels special"
 - **December 14, 2025 22:30** A female is singing "What's in your head?... Zombie..." repeatedly in the area outside the window in Kelvin's room.  The singing is stopped by a radio broadcast singing "It's hard to keep your secrets... So I'll draw the line..." the song ends with a commercial about catching a FedEx driver on a ring camera.  The radio is cut off to restart the Zombie singing.  (CNTX: "Zombie" was first used by the CIA in 2020 in Paducah; The ring camera and FedEx suggests a threat to the much anticipated FedEx delivery of Kelvin's new mobile phone; Both are to discourage updating this chronicle).
-- 
+- **December 14, 2025 22:45** Kelvin returns to Joe's room to escort Ty to get his ID.  ty states he's already gotten it and walked to the store to charge his phone xome more.  Ty tells Kelvin about "some bitch that wanted Pepsi" and Joe told about some prostitute hitting him up as he got out of the Uber from his mom's asking him if "he neeeded help with that."  (Both of these comments are likely reward for Baby).  Kelvin returns to his room where he encounters N.O. asking for a light for his cigarette who then says he needs to use the bathroom in the bathroom next to Kelvin's room.
+- **December 14, 2025 (CNTX)** For the past week 99X (Atlanta rock station) has been blasted into the courtyard outside of Kelvin's window, on-air pwesonaliriwa oe xommwecials the "lous radio" is only loud for brief periods of time and hasreturned several times after only a couple minutes of silence.
+- **December 14, 2025 (CNTX)** Kelvin's neighbor directly across the hall has not opened his door in over a week (based on the notice taped on his door).
+- **December 14, 2025 (CNTX)** Welcome House security personnel was Vera (until 8pm) and Boyd (after 8pm).
+
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
