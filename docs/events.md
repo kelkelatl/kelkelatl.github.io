@@ -248,7 +248,24 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 9, 2025 00:00-06:30** A knock on the door was unanswered, the "locusts" were heard and the music was stopped on the Chromebook.
 * **December 12, 2025 11:09** IAAD Message Exchange with ATLlooking4now123 on BBRT.  Wishing he was partying but declined to meet until tonight when he is "mobile."
 * **December 12, 2025 15:08** Received message on BBRT from Bradford Smith using brand new profile (pics were not yet approved): "I understand about the unknown o what could go wrong and such on a blind entry.   My neighborhood would be problematic for sure.  You would not be the first Black male I would have over for dinner and or desssert.   I like for the top to be wild and help pull me out of my shell. I look conservative but want to be a butt slut wannabe.  What or where do you stand on taking charge and manhandling a guy? Have found I am aroused when a dominant / top takes a forceful hand or approach.   Pretty open minded but like you the limits sound like they are similar.  Lead me astray in your wild spirit and see how this bottom guy will go with the flow or suggest something crazy like get a tent and go outside where it can be used.   Used is how I’d like to feel when we part ways. Six ft 210 brown blue clean cut"
-  
+
+## Temp Notes
+* **December 12, 2025 16:50** Baby-driven text message to "Mom" letting her know that things were progressing on the job search (replacement ID obtained, replacement SS card ordered, etc).  Follow-up call (initiated because unable to receive her text reply), during the call she inquired about my voicemail to Katrina inquiring if I'd been kicked out of Welcome House, she volunteered that she couldn't send any money to which I responded I wasn't looking for any.  She also asked if I was on my medication (not something my mother never asked or knew I took).  No mention of "plate" verification question.  Call lasted 9:45.
+* **December 14, 2025 13:51** Ty (Nigha777) arrived at Welcome House (way faster than expected/communicated). 
+* **December 14, 2025 13:57** Oink received on NKP from "KinkyNewb" in Winter Garden, FL.
+* **Dedember 14, 2025 15:47** Ty wanted to leave my room, because of the window which I tolc him is nothing to be concerned about, so we went to Joe's room.  Joe was listening to rap when we entered, then switched to a Discovery type TV show on his phone but the video had a lot of commentary about what was going on in the room and referred to Ty the way Joe did upon arrival ss "Turbo Ty."   After a little DSC I began to add to the chronologu, when Joe switched to German rock and told us the dong was about "work etthic."  Joe made enough dick comments to be noticed by me and continued working on his artwork which he had displayed on the wall.  
+- Penis in the art
+- Joe... Guns and videos.
+- On arrival immediately sent me to get him $8 worth of product ($5 weed and $3 cigs) from "fat man" (Store 192) 
+16:!5 - "Diamond earrings"
+-meat on a sidewalk and a woem will come out
+"fat girl, with daddy issues and likes meth"
+Joe was listening to rap when we arrivedd
+- Joe makea comment about "Crack games" and spending money
+- "Update Print statement from Hello to Goodbye (when pasting chronology into the pne.md file on churchinsmuyrna/terminus (the vault) 
+- CNTX Github has been very weird lately, lotz of problems when creating a new account
+20:05 - Ty wants to return to Joes after returning from store to chargw his phone.  He needs to call his "Mom" or "Dad"....  
+
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
@@ -257,3 +274,6 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * Shannon Wade Gumbiner ("Joe","Joseph Yadder")  is a resident of Welcome House in room  108
 * Lynn Frazier ("N.O.")  is not a resident of Welcome House but sleeps on Joe's floor occassionally in room 108
 * Alan Scott Dansky resides at 2959 Andrews Dr NW, Atlanta, GA and had telephone number 305-804-5205
+* 
+
+
