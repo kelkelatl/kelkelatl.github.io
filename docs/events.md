@@ -6,7 +6,7 @@
 * **Undated (CNTX):** "ARC PUMA Region" refers to Public Use Microdata Areas (PUMAs), which are U.S. Census Bureau statistical geographic units (100k+ population, within a state) used for data analysis, often mapped or discussed within the context of the Atlanta Regional Commission (ARC), a planning agency for the Atlanta, GA metro area.
 * **Undated (CNTX):** Nightfalls is a planned and authorized false-flag operation that involves a MOAB strike on ARC PUMA Region "Atlanta City (Southwest).
 * **Undated (CNTX):** PDSM stands for Pre-Divide Subsconscious Mind, which is Baby, the subconscious mind of Kelvin Eugene Williams prior to the Creator's Divide.
-* **Undated (CNTX):** The Great Chain refers to a device capable of data storage in excess of 32GB.
+* **Undated (CNTX):** The Great Chain refers to a device capable of data storage in excess of 32GB used by Kelvin exclusively.
 * **Undated (CNTX):** BBRT refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
 * **Undated (CNTX):** NKP refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
 * **Undated (CNTX):** An Oink! refers to a type of interaction on BBRT and NKP which is used to show interest in another user without having to write a message, it is similar to a Facebook Poke!.
