@@ -1,0 +1,33 @@
+name: Convert Markdown to HTML
+
+on:
+  push:
+    paths:
+      - 'docs/events.md' # Only runs when events.md is modified
+  workflow_dispatch: # Allows you to run this manually
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push the generated file back to the repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Convert Markdown to HTML
+        run: |
+          pandoc /docs/events.md -s -o /docs/pne.html
+          # -s creates a standalone HTML file with <html> and <head> tags
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add pne.html
+          git commit -m "Update pne.html from events.md [skip ci]" || echo "No changes to commit"
+          git push
