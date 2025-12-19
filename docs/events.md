@@ -340,17 +340,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 17, 2025 00:38** Dum4Cum sends an Oink! on BBRT, their profile is based in Sacramento, California and reads "Looking for a DOM GODs to fill my throat &amp; ass full of cum     Luv all sorts of kink including CNC, Verbal, Spanking/Slapping bondage gear  I luv to throat all nlte long &amp; ride thick dikk     Open to a master situation"
 * **December 17, 2025 03:15** The individual(s) in the room above Kelvin are making excessive noise, it sounds as if they are stomping intentionally.  Baby initiates a headache and wants Kelvin to lay down.
 * **December 17, 2025 09:52** The "loud radio" in the courtyard began playing just the chorus of "Creep" by Stone Temple Pilots ("I'm half the man I used to be") and went silent again.  The audio returned for the chorus a second time then went silent.
-
-# Notes on December 18
 * **December 18, 2025 00:00** (CNTX) The central stairwell at Welcome House is the busiest stairwell in the building being in the center of Welcome House and closest to the lobby.  Slim is typically seen taking the stairwell that's closest to his room and in the back of the building.  Kelvin primarily takes the central stairwell.
-* **December 18, 2025 18:30** James (somefun) arrives at Welcome House and is checked-in.   On the way to Kelvin's room we encountered Slim, wearing a facemask, standing in the central stairwell on the landing between the first and second floor.  This suggests a DSC by Slim and possibly an Orchestrated Observation.  After entering the room Kelvin and James smoked some crystal methamphetamine.
-18:30 - James arrives, Slim standing in stairwell (with mask)
-18:35 - James goes to bathroom to prepare
-18:50 James slams
-20:20 sexual activity initiated, baby inhibits
-2033 trimix
-2045 addl trimix
-2100 The encounter ends.
+* **December 18, 2025 18:30** (Incomplete Draft) James (somefun) arrives at Welcome House and is checked-in.   On the way to Kelvin's room we encountered Slim, wearing a facemask, standing in the central stairwell on the landing between the first and second floor.  This suggests a DSC by Slim and possibly an Orchestrated Observation.  After entering the room Kelvin and James smoked some crystal methamphetamine.; 18:30 - James arrives, Slim standing in stairwell (with mask); 18:35 - James goes to bathroom to prepare; 18:50 James slams; 20:20 sexual activity initiated, baby inhibits; 2033 trimix; 2045 addl trimix; 2100 Bowl and substance given--its not the normal stuff, it's kinda "fluffy".  The encounter ends.
   
 ## Contextual Information for Individuals
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
