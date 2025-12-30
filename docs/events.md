@@ -397,3 +397,4 @@ music earlier threatened arrest, javons phone played audio that sounded luke a c
 javon brings a coffee maker into room, 'i brought the kettle' ... the coffee reference i dont understand
 within the last two weeks i heard that a forner axtivity partner said he lukes hisncoffee blaxk and his whiskey neat
 church discussions, who is catholic, denominations
+i suspect google play has blocked some apps i used in the past, flagged account possibly?
