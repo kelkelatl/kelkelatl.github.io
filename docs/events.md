@@ -393,3 +393,4 @@ unk: more like 4
 baby knelt tovwash his face (nature of our kind - vandaveer)
 baby knelt tovwash his face (nature of our kind - vandaveer) -- active phenotype manipulation, erection inhibiting, supermodel. 2-4 seen
 javon needs to watch his phone in case the white houae calls--not aure if joking, others agreed
+music earlier threatened arrest, javons phone played audio that sounded luke a conf bridge talking about the garage (where i smoked a cigarette) and sounded as if they werent pleased
