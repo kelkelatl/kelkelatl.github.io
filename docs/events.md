@@ -406,6 +406,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 1, 2026 14:43** Brandon and Kelvin depart the apartment and Brandon drives Kelvin back to Welcome House (arriving at 14:48).
 * **January 1, 2026 14:48** E266 and U266 are standing along the walkway up to the front door of Welcome House when Kelvin returns from Brandon's apartment.
 * **January 1, 2026 15:01** Melissa Krulac sends $25 to Kelvin's Venmo account.
-* **January 1, 2026 16:40** Kelvin discovers his Venmo account is restricted and blocking access to his funds.
+* **January 1, 2026 00:00** (CNTX) Beginning on December 23, 2025 Kelvin opened new PayPal and Venmo accounts, both accounts required identity verification which Kelvin quickly and successfully completed.
+* **January 1, 2026 16:40** Kelvin discovers his Venmo account is restricted and blocking access to his funds.  Kelvin gets Melissa's funds refunded and asks her to send to his PayPal account.  Kelvin instantly withdraws the $25 from PayPal after receipt to a non-PayPal debit card.
+* **January 1, 2026 18:30** Kelvin discovers his PayPal account has been restricted.
 * **January 1, 2026 21:10** Kelvin notices what looks like a small “scab” on the bridge of his nose, when touched (with the right index finger) a tingle travels down the left arm into the fingers. The Creator will not say anything more about it than “yes” when Kelvin asked “did they do this?”
 
