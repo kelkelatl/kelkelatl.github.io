@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelvin Williams — kelkelatl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --plum-deepest: #0d0010;
+      --plum-dark: #1a0030;
+      --plum-mid: #2e0050;
+      --plum-rich: #4a007a;
+      --plum-bright: #7b2fa0;
+      --plum-muted: #9b59b6;
+      --plum-pale: #c39bd3;
+      --plum-ghost: #e8d5f5;
+      --accent: #b400ff;
+      --accent-glow: rgba(180, 0, 255, 0.25);
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--plum-deepest);
+      color: var(--plum-ghost);
+      font-family: 'DM Mono', monospace;
+      overflow-x: hidden;
+    }
+
+    /* Noise texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.4;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Atmospheric background blobs */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 15% 20%, rgba(74, 0, 122, 0.6) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 75%, rgba(46, 0, 80, 0.8) 0%, transparent 70%),
+        radial-gradient(ellipse 30% 30% at 60% 10%, rgba(123, 47, 160, 0.3) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      padding: clamp(2rem, 6vw, 5rem);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* ── TOP SECTION ── */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: clamp(3rem, 10vh, 8rem);
+    }
+
+    .handle {
+      font-family: 'DM Mono', monospace;
+      font-weight: 300;
+      font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeSlideUp 0.8s ease forwards 0.2s;
+    }
+
+    .handle span {
+      color: var(--accent);
+    }
+
+    .name {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: clamp(3.5rem, 10vw, 8rem);
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      color: var(--plum-ghost);
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeSlideUp 0.9s ease forwards 0.4s;
+    }
+
+    .name em {
+      font-style: italic;
+      color: var(--plum-pale);
+    }
+
+    .tagline-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: clamp(3rem, 8vh, 5rem);
+      opacity: 0;
+      animation: fadeSlideUp 0.9s ease forwards 0.6s;
+    }
+
+    .tagline-line {
+      flex: 0 0 3rem;
+      height: 1px;
+      background: linear-gradient(to right, var(--accent), transparent);
+    }
+
+    .tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      letter-spacing: 0.08em;
+      color: var(--plum-pale);
+      font-style: italic;
+    }
+
+    /* ── CONTACT GRID ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: rgba(123, 47, 160, 0.15);
+      border: 1px solid rgba(123, 47, 160, 0.25);
+      border-radius: 2px;
+      overflow: hidden;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1s;
+    }
+
+    .contact-item {
+      background: rgba(13, 0, 16, 0.7);
+      padding: 2rem 1.75rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+
+    .contact-item::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(to right, var(--accent), var(--plum-bright));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+
+    .contact-item:hover {
+      background: rgba(46, 0, 80, 0.6);
+    }
+
+    .contact-item:hover::before {
+      transform: scaleX(1);
+    }
+
+    .contact-item:hover .contact-value {
+      color: var(--plum-ghost);
+      text-shadow: 0 0 20px var(--accent-glow);
+    }
+
+    .contact-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .contact-value {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+      font-weight: 600;
+      color: var(--plum-pale);
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+      word-break: break-word;
+    }
+
+    .contact-item a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .contact-note {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      color: var(--plum-bright);
+      margin-top: 0.4rem;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding-top: clamp(2rem, 5vh, 4rem);
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1.4s;
+    }
+
+    .footer-mark {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      color: rgba(155, 89, 182, 0.4);
+      text-transform: uppercase;
+    }
+
+    .corner-ornament {
+      width: 40px;
+      height: 40px;
+      border-right: 1px solid rgba(123, 47, 160, 0.4);
+      border-bottom: 1px solid rgba(123, 47, 160, 0.4);
+    }
+
+    /* ── DECORATIVE VERTICAL LABEL ── */
+    .vertical-label {
+      position: fixed;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%) rotate(90deg);
+      font-size: 0.55rem;
+      letter-spacing: 0.5em;
+      color: rgba(123, 47, 160, 0.3);
+      text-transform: uppercase;
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeSlideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* ── SSH KEY BLOCK ── */
+    .ssh-block {
+      margin-top: 1px;
+      background: rgba(13, 0, 16, 0.7);
+      border: 1px solid rgba(123, 47, 160, 0.25);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .ssh-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.75rem;
+      border-bottom: 1px solid rgba(123, 47, 160, 0.2);
+      background: rgba(46, 0, 80, 0.3);
+    }
+
+    .copy-btn {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      background: transparent;
+      border: 1px solid rgba(123, 47, 160, 0.4);
+      border-radius: 2px;
+      padding: 0.3rem 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      color: var(--plum-ghost);
+      border-color: var(--accent);
+      background: rgba(180, 0, 255, 0.1);
+    }
+
+    .copy-btn.copied {
+      color: #c39bd3;
+      border-color: #7b2fa0;
+    }
+
+    .ssh-key {
+      font-family: 'DM Mono', monospace;
+      font-size: clamp(0.6rem, 1.3vw, 0.75rem);
+      font-weight: 300;
+      color: var(--plum-pale);
+      padding: 1.25rem 1.75rem;
+      white-space: pre-wrap;
+      word-break: break-all;
+      line-height: 1.7;
+      user-select: all;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 500px) {
+      .vertical-label { display: none; }
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <span class="vertical-label">Kelvin Williams · Atlanta</span>
+
+  <div class="page">
+    <section class="hero">
+
+      <p class="handle">@<span>kelkelatl</span></p>
+
+      <h1 class="name">Kelvin<br><em>Williams</em></h1>
+
+      <div class="tagline-wrapper">
+        <div class="tagline-line"></div>
+        <p class="tagline">Kelvin Gets Stuff Done</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-item">
+          <div class="contact-label">Handle</div>
+          <div class="contact-value">kelkelatl</div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Email</div>
+          <div class="contact-value">
+            <a href="mailto:kelkelatl@gmail.com">kelkelatl@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">
+            <a href="sms:4705253356">470-525-3356</a>
+          </div>
+          <p class="contact-note">texts preferred</p>
+        </div>
+
+      </div>
+
+      <!-- SSH Key -->
+      <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.2s">
+        <div class="ssh-header">
+          <span class="contact-label" style="margin:0">SSH Public Key</span>
+          <button class="copy-btn" onclick="copyKey(this)">Copy</button>
+        </div>
+        <pre class="ssh-key" id="ssh-key">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEpoKeqFNPhpHBfRJ8GL5ii73dP0QzECWK8F4a3dbwF4</pre>
+      </div>
+    </section>
+
+    <footer>
+      <span class="footer-mark">Kelvin Williams · Est. Now</span>
+      <div class="corner-ornament"></div>
+    </footer>
+  </div>
+
+<script>
+  function copyKey(btn) {
+    const key = document.getElementById('ssh-key').textContent.trim();
+    navigator.clipboard.writeText(key).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  }
+</script>
+</body>
+<!-- 1161 5312 -->
+</html>
