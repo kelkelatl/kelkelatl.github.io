@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kelvin Williams — kelkelatl</title>
+  <title>Kelvin Williams</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -95,18 +95,14 @@
     .name {
       font-family: 'Cormorant Garamond', serif;
       font-weight: 700;
-      font-size: clamp(3.5rem, 10vw, 8rem);
-      line-height: 0.9;
+      font-size: clamp(3rem, 9vw, 7rem);
+      line-height: 1;
       letter-spacing: -0.02em;
       color: var(--plum-ghost);
+      white-space: nowrap;
       margin-bottom: 2rem;
       opacity: 0;
       animation: fadeSlideUp 0.9s ease forwards 0.4s;
-    }
-
-    .name em {
-      font-style: italic;
-      color: var(--plum-pale);
     }
 
     .tagline-wrapper {
@@ -337,28 +333,20 @@
   <div class="page">
     <section class="hero">
 
-      <p class="handle">@<span>kelkelatl</span></p>
-
-      <h1 class="name">Kelvin<br><em>Williams</em></h1>
+      <h1 class="name">Kelvin Williams</h1>
 
       <div class="tagline-wrapper">
         <div class="tagline-line"></div>
-        <p class="tagline">Kelvin Gets Stuff Done</p>
+        <p class="tagline">Aut viam inveniam aut faciam</p>
       </div>
 
       <div class="contact-grid">
 
         <div class="contact-item">
-          <div class="contact-label">Handle</div>
-          <div class="contact-value">kelkelatl</div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Atlanta, Georgia, USA</div>
         </div>
 
-        <div class="contact-item">
-          <div class="contact-label">Email</div>
-          <div class="contact-value">
-            <a href="mailto:kelkelatl@gmail.com">kelkelatl@gmail.com</a>
-          </div>
-        </div>
 
         <div class="contact-item">
           <div class="contact-label">Phone</div>
@@ -374,9 +362,61 @@
       <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.2s">
         <div class="ssh-header">
           <span class="contact-label" style="margin:0">SSH Public Key</span>
-          <button class="copy-btn" onclick="copyKey(this)">Copy</button>
+          <button class="copy-btn" onclick="copyBlock('ssh-key', this)">Copy</button>
         </div>
         <pre class="ssh-key" id="ssh-key">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEpoKeqFNPhpHBfRJ8GL5ii73dP0QzECWK8F4a3dbwF4</pre>
+      </div>
+
+      <!-- PGP Key -->
+      <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.35s;margin-top:1px">
+        <div class="ssh-header">
+          <span class="contact-label" style="margin:0">PGP Public Key</span>
+          <button class="copy-btn" onclick="copyBlock('pgp-key', this)">Copy</button>
+        </div>
+        <pre class="ssh-key" id="pgp-key">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+RttAD1HwBRXiRud4WQ==
+=jLv/
+-----END PGP PUBLIC KEY BLOCK-----
+
+</pre>
       </div>
     </section>
 
@@ -387,8 +427,8 @@
   </div>
 
 <script>
-  function copyKey(btn) {
-    const key = document.getElementById('ssh-key').textContent.trim();
+  function copyBlock(id, btn) {
+    const key = document.getElementById(id).textContent.trim();
     navigator.clipboard.writeText(key).then(() => {
       btn.textContent = 'Copied!';
       btn.classList.add('copied');
@@ -400,5 +440,7 @@
   }
 </script>
 </body>
-<!-- 1161 5312 -->
+<!--
+1161 5312
+-->
 </html>
