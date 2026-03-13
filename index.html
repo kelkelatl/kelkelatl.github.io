@@ -132,7 +132,7 @@
     /* ── CONTACT GRID ── */
     .contact-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: 1fr; /* repeat(auto-fit, minmax(220px, 1fr)); */
       gap: 1px;
       background: rgba(123, 47, 160, 0.15);
       border: 1px solid rgba(123, 47, 160, 0.25);
@@ -347,6 +347,10 @@
           <div class="contact-value">Atlanta, Georgia, USA</div>
         </div>
 
+        <div class="contact-item">
+          <div class="contact-label">E-Mail</div>
+          <div class="contact-value"><a href="mailto:kelvin@kelvinwilliams.net">kelvin@kelvinwilliams.net</a></div>
+        </div>
 
         <div class="contact-item">
           <div class="contact-label">Phone</div>
@@ -357,7 +361,7 @@
         </div>
 
         <div class="contact-item">
-          <div class="contact-label">Wire.com</div>
+          <div class="contact-label">Messenger</div>
           <div class="contact-value">@kelkelatl</div>
         </div>
 
@@ -365,6 +369,12 @@
           <div class="contact-label">Telegram</div>
           <div class="contact-value">@kelkelatl</div>
         </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Wire.com</div>
+          <div class="contact-value">@kelkelatl</div>
+        </div>
+      </div>
 
       <!-- SSH Key -->
       <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.2s">
