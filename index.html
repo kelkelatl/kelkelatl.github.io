@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelvin Williams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --plum-deepest: #0d0010;
+      --plum-dark: #1a0030;
+      --plum-mid: #2e0050;
+      --plum-rich: #4a007a;
+      --plum-bright: #7b2fa0;
+      --plum-muted: #9b59b6;
+      --plum-pale: #c39bd3;
+      --plum-ghost: #e8d5f5;
+      --accent: #b400ff;
+      --accent-glow: rgba(180, 0, 255, 0.25);
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--plum-deepest);
+      color: var(--plum-ghost);
+      font-family: 'DM Mono', monospace;
+      overflow-x: hidden;
+    }
+
+    /* Noise texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.4;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Atmospheric background blobs */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 15% 20%, rgba(74, 0, 122, 0.6) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 75%, rgba(46, 0, 80, 0.8) 0%, transparent 70%),
+        radial-gradient(ellipse 30% 30% at 60% 10%, rgba(123, 47, 160, 0.3) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      padding: clamp(2rem, 6vw, 5rem);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* ── TOP SECTION ── */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: clamp(3rem, 10vh, 8rem);
+    }
+
+    .handle {
+      font-family: 'DM Mono', monospace;
+      font-weight: 300;
+      font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeSlideUp 0.8s ease forwards 0.2s;
+    }
+
+    .handle span {
+      color: var(--accent);
+    }
+
+    .name {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: clamp(3rem, 9vw, 7rem);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: var(--plum-ghost);
+      white-space: nowrap;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeSlideUp 0.9s ease forwards 0.4s;
+    }
+
+    .tagline-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: clamp(3rem, 8vh, 5rem);
+      opacity: 0;
+      animation: fadeSlideUp 0.9s ease forwards 0.6s;
+    }
+
+    .tagline-line {
+      flex: 0 0 3rem;
+      height: 1px;
+      background: linear-gradient(to right, var(--accent), transparent);
+    }
+
+    .tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      letter-spacing: 0.08em;
+      color: var(--plum-pale);
+      font-style: italic;
+    }
+
+    /* ── CONTACT GRID ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr; /* repeat(auto-fit, minmax(220px, 1fr)); */
+      gap: 1px;
+      background: rgba(123, 47, 160, 0.15);
+      border: 1px solid rgba(123, 47, 160, 0.25);
+      border-radius: 2px;
+      overflow: hidden;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1s;
+    }
+
+    .contact-item {
+      background: rgba(13, 0, 16, 0.7);
+      padding: 2rem 1.75rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+
+    .contact-item::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(to right, var(--accent), var(--plum-bright));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+
+    .contact-item:hover {
+      background: rgba(46, 0, 80, 0.6);
+    }
+
+    .contact-item:hover::before {
+      transform: scaleX(1);
+    }
+
+    .contact-item:hover .contact-value {
+      color: var(--plum-ghost);
+      text-shadow: 0 0 20px var(--accent-glow);
+    }
+
+    .contact-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .contact-value {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+      font-weight: 600;
+      color: var(--plum-pale);
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+      word-break: break-word;
+    }
+
+    .contact-item a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .contact-note {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      color: var(--plum-bright);
+      margin-top: 0.4rem;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding-top: clamp(2rem, 5vh, 4rem);
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1.4s;
+    }
+
+    .footer-mark {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      color: rgba(155, 89, 182, 0.4);
+      text-transform: uppercase;
+    }
+
+    .corner-ornament {
+      width: 40px;
+      height: 40px;
+      border-right: 1px solid rgba(123, 47, 160, 0.4);
+      border-bottom: 1px solid rgba(123, 47, 160, 0.4);
+    }
+
+    /* ── DECORATIVE VERTICAL LABEL ── */
+    .vertical-label {
+      position: fixed;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%) rotate(90deg);
+      font-size: 0.55rem;
+      letter-spacing: 0.5em;
+      color: rgba(123, 47, 160, 0.3);
+      text-transform: uppercase;
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeSlideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* ── SSH KEY BLOCK ── */
+    .ssh-block {
+      margin-top: 1px;
+      background: rgba(13, 0, 16, 0.7);
+      border: 1px solid rgba(123, 47, 160, 0.25);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .ssh-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.75rem;
+      border-bottom: 1px solid rgba(123, 47, 160, 0.2);
+      background: rgba(46, 0, 80, 0.3);
+    }
+
+    .copy-btn {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--plum-muted);
+      background: transparent;
+      border: 1px solid rgba(123, 47, 160, 0.4);
+      border-radius: 2px;
+      padding: 0.3rem 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      color: var(--plum-ghost);
+      border-color: var(--accent);
+      background: rgba(180, 0, 255, 0.1);
+    }
+
+    .copy-btn.copied {
+      color: #c39bd3;
+      border-color: #7b2fa0;
+    }
+
+    .ssh-key {
+      font-family: 'DM Mono', monospace;
+      font-size: clamp(0.6rem, 1.3vw, 0.75rem);
+      font-weight: 300;
+      color: var(--plum-pale);
+      padding: 1.25rem 1.75rem;
+      white-space: pre-wrap;
+      word-break: break-all;
+      line-height: 1.7;
+      user-select: all;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 500px) {
+      .vertical-label { display: none; }
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <span class="vertical-label">Kelvin Williams · Atlanta</span>
+
+  <div class="page">
+    <section class="hero">
+
+      <h1 class="name">Kelvin Williams</h1>
+
+      <div class="tagline-wrapper">
+        <div class="tagline-line"></div>
+        <p class="tagline">Aut viam inveniam aut faciam</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-item">
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Atlanta, Georgia, USA</div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">E-Mail</div>
+          <div class="contact-value"><a href="mailto:kelvin@kelvinwilliams.net">kelvin@kelvinwilliams.net</a></div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">
+            <a href="sms:4705253356">470-525-3356</a>
+          </div>
+          <p class="contact-note">texts preferred</p>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Messenger</div>
+          <div class="contact-value">@kelkelatl</div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Telegram</div>
+          <div class="contact-value">@kelkelatl</div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-label">Wire.com</div>
+          <div class="contact-value">@kelkelatl</div>
+        </div>
+      </div>
+
+      <!-- SSH Key -->
+      <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.2s">
+        <div class="ssh-header">
+          <span class="contact-label" style="margin:0">SSH Public Key</span>
+          <button class="copy-btn" onclick="copyBlock('ssh-key', this)">Copy</button>
+        </div>
+        <pre class="ssh-key" id="ssh-key">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEpoKeqFNPhpHBfRJ8GL5ii73dP0QzECWK8F4a3dbwF4</pre>
+      </div>
+
+      <!-- PGP Key -->
+      <div class="ssh-block" style="opacity:0;animation:fadeIn 1s ease forwards 1.35s;margin-top:1px">
+        <div class="ssh-header">
+          <span class="contact-label" style="margin:0">PGP Public Key</span>
+          <button class="copy-btn" onclick="copyBlock('pgp-key', this)">Copy</button>
+        </div>
+        <pre class="ssh-key" id="pgp-key">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBGeinAQBCADjIdOZHqZhDrX34ViXjkeRotrrnAYv35fP/I3xYbqjkRL1l7A8
+xDWmlxWY7pCFUZLDBUJljJlk3IgIgEFO3fVVFPzaraPo5iUXZkuXS71f3Co9Eo1y
+L39BQKncnokKTIYUai7+TP6k4WnxwDHDGMlooIZfET3gQjjy8c2D9WMyOdi7jAzQ
+v7X0ajq+LuK6dEfSeYTjoQgwHzfEALpk+Tjty8X8NS+jlgwI8lyDwQaIwwBYHKbb
+i/A+nnr3KSaa45GEamRMt6Q2eYd0IIGfoOW11DITKEWVaxWfKyc/RvY4QrXPhnZn
+RVc/Eus5ficr9zFN4aWZtjYEjYRQdKi+J2OrABEBAAG0SEtlbHZpbiBFdWdlbmUg
+Q3Jhd2xleS1Sb2dlcnMgV2lsbGlhbXMgKFBEQ00pIDxrZWx2aW5Aa2Vsdmlud2ls
+bGlhbXMubmV0PokBTgQTAQoAOBYhBM4Z6+BF0dvwJ3Sz0IUQYiADW2ibBQJprINA
+AhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEIUQYiADW2ibaRkIALdSmzzz
+nJTwi5SD5X3LHLM0Wi8ufbAufr8fVMvqkqlYeINEAtCJabNBjhIGlIJUaLyt9vGl
+YNaz53kvj4QeAicHcPXti6FgyLKVR0P9DIHYmibcjvh0u/STlYXgZs0+le7iYOyL
+iqLgRn0AGtNDdZN3XuNFKuYkshRzznI4RhpEQM7pXAId6ZoV17XdhdIEZmdi7X5k
+UkVqlOCOcWShutPHH0fuhu4s6v2DO4E9QyB8a5D/nSzPJgc5BQfNG/YGP0qtrtI0
+avEl8O/iC7wLc2ozBIk+CdFKuadEAS9fG0kgs8yFu6qe1hQAvHgdg4ubAX9jXa2F
+UMishvFEfCYZsN20TUtlbHZpbiBFdWdlbmUgQ3Jhd2xleS1Sb2dlcnMgV2lsbGlh
+bXMgKFBEQ00pIDxrZWx2aW5ld2lsbGlhbXMucGRjbUBnbWFpbC5jb20+iQFOBBMB
+CgA4FiEEzhnr4EXR2/AndLPQhRBiIANbaJsFAmmsg3wCGwMFCwkIBwIGFQoJCAsC
+BBYCAwECHgECF4AACgkQhRBiIANbaJvusQgAsBNPKjW2XCmQybkjYO+azgr6Eeyz
+y/TuCWacjUv2FQ8fynyahcX2CtYHlMkaTCzS6GaRrHeZDUpdv4vR7QgzlHOzUEG6
+wPiUALhhJlKewj+IktOs92M2KJC8LQTdpUux7I6whU/kO8z7Y2d2EnVD/wBbUSFM
+JjhTRQXNfUSZFCLO/ZXk4MF4Emz8Lf97dbzz6i6RInIzsacq0X+cOrh1o5fFP/fO
+pHQntEkuiXrBMAvl9+MfUq0vp52e79vqWSILLZuDLbxG7KaN5eR3WZ4asyRrLJk0
+LQhlPAZ/OToNVuFrp0gI6q9PqsGGPaqTYUo7CzMymqTinN/piuiQsVsK4LRPS2Vs
+dmluIEV1Z2VuZSBDcmF3bGV5LVJvZ2VycyBXaWxsaWFtcyAoUERDTSkgPGtlbHZp
+bmV3aWxsaWFtcy5wZGNtQG91dGxvb2suY29tPokBTgQTAQoAOBYhBM4Z6+BF0dvw
+J3Sz0IUQYiADW2ibBQJprIOfAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJ
+EIUQYiADW2ibTaMIANfE1kJHEh/0pTmhRmkQ/6hLOTF0gcPAe3BrZXYLMHwbDeVk
+LScWE5Twh1a93hXhR7XLvK+3MiBFRFkxJLq1K3tPDXniQLxLIBObxzG2X+H2dq8A
+7DrgUjkCdl84SZMNzQr5cpyMO9RO7v1vnqLe0Kv6OzqjrFuOYbTn+FY98Iv8SMo3
+BCrb1nxaTgRaLyVLaKI3ybp17DXj4dfgTQ25BrfumdMe8+mK5IsuNN/kQp7SmuXX
+AyCJz4MGS6fLU/iit9woyCiOmMzNqQCkzhTpNTdF7vpVrCISXil1DGhPulPE68tQ
+NS7zl8G19anOeOKxIk56SSMMezHUZDWfw5xpahC0QktlbHZpbiBFdWdlbmUgQ3Jh
+d2xleS1Sb2dlcnMgV2lsbGlhbXMgKFBEQ00pIDxrZWxrZWxhdGxAZ21haWwuY29t
+PokBTgQTAQoAOBYhBM4Z6+BF0dvwJ3Sz0IUQYiADW2ibBQJprIO6AhsDBQsJCAcC
+BhUKCQgLAgQWAgMBAh4BAheAAAoJEIUQYiADW2ib7ioIAIyrx+w5j4I++Yw9DXLt
+EGCQU/rn1FZ0ZsajpTrIXSSKROGs1Lg5+LX3XvlmDJ1tsghc2wp+A7QeMcVszr8V
+mougrurCb3Y7kTRJ5vO9Q4Rt4MYDDN1I8EjQ7tnTzOFV2rNXtLwp9zJhi/Cv+I7g
+QfjZoK2HG41adjm6rN66y2Lw2QnLJpmi6dULbNzRC9L9sqGwVwcQxuo+nr9msXN5
+4Wvu+C8Z0YVJJwH87mYUfqh+bnD0onQJh4HfLMx+nsQ1mKd7VTktBLiL1IRlW7dK
+NQxPz0B+CQPkOcOjWisnV+kgCxj9HpnN+kOu1LRJLr5c2saypzCpXBYSCnHmIXgp
+Qe60TEtlbHZpbiBFdWdlbmUgQ3Jhd2xleS1Sb2dlcnMgV2lsbGlhbXMgKFBEQ00p
+IDxrZWx2aW5nZXRzc3R1ZmZkb25lQGdtYWlsLmNvbT6JAU4EEwEKADgWIQTOGevg
+RdHb8Cd0s9CFEGIgA1tomwUCaayD1gIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIX
+gAAKCRCFEGIgA1tomz8ACACZJpswVvoGh+TPvvf4epC0yL6EfuiwmKL4Oj7zlHFe
+y1TgUPn52Y8L/yz/0oFF5WGKMr68vRF5PY1BtGOaUh3HgMQHRF+UGdyxKkMVVcoZ
+YbsfQ0ARI8UbwgIk8PwFVJgvHwCp8QrifRWI+PfkkeROHpT843ywS3f77isfZB1u
+fMBzoXTadrkcQP0nf/f/Hz2d9F1m3kazYnBt6k/I2UZwu7EKGotZS9tefCrx9vo+
+7VOzdkLa6DGrr8mAb10YQJYpWkTzQUaQaKyemd57slK/Z8Zn/JODSSXiNWbvayV2
+QWdra5nr8Tjsa+HmeT3tBpjrMPVA6+Sb74DonANo7VsvuQENBGeinAQBCADRcjvk
+Ly5JsBewa+my/DARMaImUSL+q+nyZzHcvmXQaLigh1NjXbQ3QcMYPkBPi8yWkYs0
+4QJfmj3pla9slsLiw1fV88N0hqkwl9mXGKfqTkINHijTk+Fe5l9sgpXnB3a7Uyig
+YAfxoNBeb60bmLsHPht0aLiq56geIp707UI4lC7P5cvG8xf1U0IF3fz4FNmnr5rz
+SaVsQg3S3cKxHvhTmPpsWamLtum/SFfBd5rUFDN4zuZsKGof/kW501SeTAS21Tt3
+EVl7T5uUFpXzQtPRvwq6BeVVzqBK9XVdUoIf2riUy0+jYw8QC5GzuVPNuo1BWe+B
+oZiyvhylAVFGhPbnABEBAAGJATYEGAEIACAWIQTOGevgRdHb8Cd0s9CFEGIgA1to
+mwUCZ6KcBAIbDAAKCRCFEGIgA1tom4ReB/9o7nNQD07X167KhxbUMZMpXJULfRxx
+fTb8O+qz91v3/9uIugrZzUPE6s1thkcWE4IqhqOQPRByL/Q/OmExoTulsuBk05/0
+Q6eZhZQXtw2VqlsfhxP3PbYJdXB2PsR92sYJxfHZzYKgdTCLX17cnAJaUPyR+6/U
+JIxmc1Xg22zgZusUk3Yxi90z7MiGU1res7sqj140MdCjy3Jjjje8YnZq2bmkgEOx
+w+ZuEjUYRwrNgI2kg8oEu7OiqcJD3wz3fxdNyRQViF8Hf+JeHDkruxa2WJxW09iW
+pOhWL1BnEL+BL+Pfe/pSxypODLqW78mVn4crDEaQsM6XT9vYLpw41qxE
+=Dk0E
+-----END PGP PUBLIC KEY BLOCK-----
+
+        </pre>
+      </div>
+    </section>
+
+    <footer>
+      <span class="footer-mark">Kelvin Williams · Est. Now</span>
+      <div class="corner-ornament"></div>
+    </footer>
+  </div>
+
+<script>
+  function copyBlock(id, btn) {
+    const key = document.getElementById(id).textContent.trim();
+    navigator.clipboard.writeText(key).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  }
+</script>
+</body>
+<!--
+H63ZEKXQA66HM23LEPMY4CYWYCXDNT4T
+73ao gfox rfeu b3kg zlat mkyt 6kvj kjf3
+-->
+</html>
